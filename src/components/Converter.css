@@ -1,0 +1,25 @@
+  .Converter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .Converter-Input {
+    width: 100%;
+    max-width: 200px;
+    min-height: 24px;
+    box-sizing: border-box;
+  }
+
+  .Converter-Output {
+    width: 100%;
+    max-width: 200px;
+    min-height: 24px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #ffffff;
+  }
